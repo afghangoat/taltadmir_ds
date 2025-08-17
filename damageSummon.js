@@ -1,0 +1,1 @@
+new gameComponent("after","datastore[0] = 1;","if(ingame == true && player.hittick > 0 && getRandomInt(7) == 1){new Enemy(player.position.x,player.position.y-256,getRandomInt(28)+1,1,getRandomInt(400)+25,alltables[getRandomInt(alltables.length)],getRandomInt(5));};","Summon On Damage","1.1");
